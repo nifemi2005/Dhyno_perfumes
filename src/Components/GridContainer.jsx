@@ -12,6 +12,7 @@ import GridImage10 from '../assets/Grid-Image10.jpeg'
 import GridImage11 from '../assets/Grid-Image11.jpeg'
 import GridImage12 from '../assets/Grid-Image12.jpeg'
 import { Link } from 'react-router-dom'
+import BSgridContainer from './BS-gridContainer'
 
 const GridContainer = () => {
   return (
@@ -164,6 +165,7 @@ const GridContainer = () => {
             </div>
         </div>
         <h1 className='text-center lg:text-[35px] md:text-[30px] sm:text-[25px] text-[18px] font-semibold leading-none text-[#000000bd] md:pb-[30px] sm:pb-[25px] pb-[15px]'>BEST SELLING.</h1>
+        <BSgridContainer/>
     </>
   )
 }
